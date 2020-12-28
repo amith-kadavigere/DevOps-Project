@@ -1,6 +1,6 @@
 # DevOps-Project
 
-# Requirement
+## Requirement
 
 * Create a simple HelloWorld app accessible over the internet.
 
@@ -13,24 +13,23 @@ http://gcp.kutumba.xyz
 ```
 
 ## About the App
-* We have contaierized a Python Flask app available at [link](https://github.com/apolloio/k8s-helloworld) using Docker as per requirement.
+* We have contaierized a Python Flask app available at this  [link](https://github.com/apolloio/k8s-helloworld) using Docker as per requirement.
 * The image has been uploaded to GCR as per requirement.
 * The GKE cluster has been spun up using Terraform with the requested parameters as per requirement.
 * The app has been deployed in Kubernetes and has been configured to autoscale from 2-4 pods.
+* Application has been associated with custom domain pending TLS.
 
 
 
-## But why Kubernetes?!!
-
-### Application Life Cycle Management (ALM)
-* The biggest benefit of using Kubernetes is its ability to orchestrate an Application's lifecycle. What is Orchestration, you ask? In a nutshell, Kubernetes handles the Lifecycle & management of an application from Deployment, Updates, Management, Availability, Scalability, Migration to its eventual Deletion. Once the application is deployed in Kubernetes, except of enhancements, all one has to do is to ensure Kubernetes service is up and running and the application management is taken care by  Kubernetes.
+> ### @icon-info-circle But why Kubernetes?!!
+> The biggest benefit of using Kubernetes is its ability to orchestrate an Application's lifecycle. What is Orchestration, you ask? In a nutshell, Kubernetes handles the lifecycle & management of an application from Deployment, Updates, Management, Availability, Scalability, Migration and to its eventual Demise. Once the application is deployed in Kubernetes, except for enhancements, all one has to do is to ensure Kubernetes service is up and running and the application management is taken care by  Kubernetes.
 
 #### Scalability
 * Helps keep the cluster elastic. Scale in / scale out Cluster nodes, Worker nodes, pods as per Application requirements or load.
 
 #### Fault Tolerance
 * Pods are ephemeral. For Stateless applications which require only content to be served, we could specify the minimum, maximum and desired number of pods to be maintained at all times thus ensuring availability.
-* Autoscaling could be enabled to scale as per CPU/Memory utilization or using custom metrics from Prometheus/Graphana based on traffic.
+* Autoscaling could be enabled to scale as per CPU/Memory utilization or using custom metrics from Prometheus/Graphana based on traffic load.
 * Stateful applications are supported through Stateful sets, Persistent Voumes.
 
 #### Security
@@ -38,10 +37,10 @@ http://gcp.kutumba.xyz
 * K8S could be secured using self signed certs, SSL/TLS through Cert Authority like LetsEncrypt.
 
 #### Efficiency
-* Containers consume less resources than VMs. Alpine images for example consume as less as 5MB while feature rich RHEL/Ubuntu images may take upto 600MB.
+* Containers consume less resources than VMs. Alpine images for example consume as less as 5MB while feature rich RHEL/Ubuntu images may take upwards of 600MB while providing more flexibility and features.
 
 #### Platform agnostic
-* Kubernetes is the same everywhere. Organizations looking to increase their DevOps workforce need only to look for K8S expertise as Engineers knowledgable in K8S could implement it on multiple cloud platforms.
+* Kubernetes is the same everywhere. Organizations looking to increase their DevOps workforce need only to look for K8S expertise as Engineers knowledgable in K8S could implement it on multiple cloud platforms as well as on Hybrid and on-prem.
 
 #### Extensibility
 * As Kubernetes adoption has gained traction and the platform has matured over the years, there is extensive contributions through community and Managed solution options.
@@ -53,7 +52,7 @@ http://gcp.kutumba.xyz
 * Major Cloud providers abstract the Control Plane through managed solutions like EKS, AKS, GKE, etc.
 
 #### Observability
-* Besides Kubernetes' own Monitoring and metrics capabilities, there are dedicated solutions like Prometheus / Graphana, Elastic Stack as well as Managed solutions like Instana, Splunk, Appdynamics, Dynatrace.
+* Besides Kubernetes' own Monitoring and metrics capabilities, there are dedicated solutions like Prometheus / Graphana, Elastic Stack as well as Managed solutions like Instana, Splunk, Appdynamics, Dynatrace that could be used for Monitoring, logging and alerting through email, Slack, Teams etc.
 
 #### Service mesh
 * It's not just about that Cluster life! Through Istio and Consul one could configure Kubernetes to work with resources outside the cluster and bring all of them under one Umbrella for visibility.
