@@ -2,15 +2,13 @@
 
 ## Requirement
 
-* Create a simple HelloWorld app accessible over the internet.
+* Deploy a simple Python Flask HelloWorld app accessible over the internet.
 
 ## TL;DR
 
 Visit the link below to checkout the app.
 
-```go
-[Link to HelloWorld app]http://gcp.kutumba.xyz
-```
+* [Link to HelloWorld app](http://gcp.kutumba.xyz)
 
 ## About the App
 * We have contaierized a Python Flask app available at this [link](https://github.com/apolloio/k8s-helloworld) using Docker as per requirement.
