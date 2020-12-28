@@ -13,7 +13,7 @@ Visit the link below to checkout the app.
 ## About the App
 * Contaierized a Python Flask app available at this [link](https://github.com/apolloio/k8s-helloworld) using Docker.
 * Container image has been uploaded to Google Container Registry.
-* The GKE cluster has been spun up using Terraform with the requested parameters.
+* The GKE cluster has been spun up using Terraform with the specified parameters.
 * App deployed in Kubernetes with Autoscaling enabled.
 * Application has been associated with custom domain.
 
