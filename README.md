@@ -19,7 +19,7 @@ Visit the link below to checkout the app.
 
 &nbsp;
 
-> ### @icon-info-circle But why Kubernetes?!!
+> ### But why Kubernetes?!!
 > The biggest benefit of using Kubernetes is its ability to orchestrate an Application's lifecycle. What is Orchestration, you ask? In a nutshell, Kubernetes handles the lifecycle & management of an application from Deployment, Updates, Management, Availability, Scalability, Migration and to its eventual Demise. Once the application is deployed in Kubernetes, except for enhancements, all one has to do is to ensure Kubernetes service is up and running and the application management is taken care by  Kubernetes.
 
 &nbsp;
