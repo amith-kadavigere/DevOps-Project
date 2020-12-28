@@ -11,16 +11,18 @@ Visit the link below to checkout the app.
 * [Link to HelloWorld app](http://gcp.kutumba.xyz)
 
 ## About the App
-* We have contaierized a Python Flask app available at this [link](https://github.com/apolloio/k8s-helloworld) using Docker as per requirement.
-* The image has been uploaded to GCR as per requirement.
-* The GKE cluster has been spun up using Terraform with the requested parameters as per requirement.
-* The app has been deployed in Kubernetes and has been configured to autoscale from 2-4 pods.
+* Contaierized a Python Flask app available at this [link](https://github.com/apolloio/k8s-helloworld) using Docker.
+* Container has been uploaded to Google Container Registry.
+* The GKE cluster has been spun up using Terraform with the requested parameters.
+* App deployed in Kubernetes and has been configured to autoscale from 2-4 pods based on CPU load.
 * Application has been associated with custom domain pending TLS.
 
-
+&nbsp;
 
 > ### @icon-info-circle But why Kubernetes?!!
 > The biggest benefit of using Kubernetes is its ability to orchestrate an Application's lifecycle. What is Orchestration, you ask? In a nutshell, Kubernetes handles the lifecycle & management of an application from Deployment, Updates, Management, Availability, Scalability, Migration and to its eventual Demise. Once the application is deployed in Kubernetes, except for enhancements, all one has to do is to ensure Kubernetes service is up and running and the application management is taken care by  Kubernetes.
+
+&nbsp;
 
 #### Scalability
 * Helps keep the cluster elastic. Scale in / scale out Cluster nodes, Worker nodes, pods as per Application requirements or load.
