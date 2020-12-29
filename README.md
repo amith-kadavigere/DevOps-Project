@@ -8,7 +8,7 @@
 
 Visit the link below to checkout the app.
 
-* [Link to HelloWorld app](http://gcp.kutumba.xyz)
+* [Link to HelloWorld app](https://gcp.kutumba.xyz)
 
 ## About the App
 * Contaierized a Python Flask app available at this [link](https://github.com/apolloio/k8s-helloworld) using Docker.
@@ -16,6 +16,7 @@ Visit the link below to checkout the app.
 * The GKE cluster has been spun up using Terraform with the specified parameters.
 * App deployed in Kubernetes with Autoscaling enabled.
 * Application has been associated with custom domain.
+* Endpoint secured with encryption using Lets Encrypt staging with automatic certificate renewal by Cert-Manager.
 
 &nbsp;
 
