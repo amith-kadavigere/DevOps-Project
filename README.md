@@ -2,7 +2,7 @@
 
 ## Requirement
 
-* Deploy a simple Python Flask HelloWorld app accessible over the internet.
+* Deploy a Python Flask HelloWorld app accessible over the internet.
 
 ## TL;DR
 
