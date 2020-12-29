@@ -25,6 +25,8 @@ Visit the link below to checkout the app.
 
 &nbsp;
 
+## Some benefits of deploying apps to Kubernetes.
+
 #### Scalability
 * Helps keep the cluster elastic. Scale in / scale out Cluster nodes, Worker nodes, pods as per Application requirements or load.
 
