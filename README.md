@@ -11,7 +11,7 @@ Visit the link below to checkout the app.
 * [Link to HelloWorld app](https://gcp.kutumba.xyz)
 
 ## About the App
-* Contaierized Python Flask app available at this [link](https://github.com/apolloio/k8s-helloworld) using Docker.
+* Containerized Python Flask app available at this [link](https://github.com/apolloio/k8s-helloworld) using Docker.
 * Container image uploaded to Google Container Registry.
 * GKE cluster deployed using Terraform with the specified parameters.
 * App deployed in Kubernetes with Autoscaling enabled.
